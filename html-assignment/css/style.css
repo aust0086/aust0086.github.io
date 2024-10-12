@@ -1,0 +1,20 @@
+body {
+    font-size: 18px;
+}
+
+header,
+footer {
+    background-color: darkslategrey;
+}
+
+.site-title {
+    color: forestgreen;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+#bullets{
+    list-style-type: square;
+}
