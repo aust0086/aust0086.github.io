@@ -4,17 +4,34 @@ body {
 
 header,
 footer {
-    background-color: darkslategrey;
+    background-color: #A3C4BC; width: 220px;
 }
 
 .site-title {
-    color: forestgreen;
+    color: #173753;
 }
 
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
 }
 
-#bullets{
+
+ul{ 
     list-style-type: square;
 }
+
+li:nth-child(odd){
+    background-color: #E6E1C5; width: 150px;
+}
+
+nav{
+a:link { 
+    text-decoration: none; 
+    border-style: solid;
+    background-color: #EFBC9B;
+} 
+  a:hover { 
+    background-color: #CBF3F0;
+  } 
+}
+
