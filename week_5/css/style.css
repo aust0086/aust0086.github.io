@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(175, 223, 223);
+}
+
+/* This is a comment */
+header {
+    background-color: rgb(37, 75, 62);
+    color: white;
+    padding: 1rem 2rem;
+    /* top and bottom, left and right */
+    /* 1 rem is = to 16 pixles */
+    margin: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    text-decoration: underline;
+}
+p {
+    color: blue;
+}
+
+p {
+    font-size: 1.2rem;
+    color: red;
+    /* the last target takes priority */
+    margin: 1rem 0
+}
+div p {
+    font-size: 0.8rem;
+}
+/* to target an id use hashtag */
+/* id has a bigger prefrence over class in therms of apperance for css options*/
+#goals {
+    font-weight: 700;
+    border: 2px solid darkgreen;
+}
+/* to target a class use period */
+.highlight {
+    background-color: gold;
+    border: 2px solid red;
+}
+.notes {
+    border: 2px solid black;
+}
+li:nth-child(even){
+    background-color: darkgray;
+}
+a{
+    display: block;
+    color:black
+}
+a[href="https://algonquincollege.com"]{
+color:green
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color: indianred;
+}
+a:hover{
+    color: orange;
+}
+span{
+    color: blue;
+}
+span{
+    color:inherit;
+    /* force the span to inherit the color from the parent */
+}
+span{
+    color:initial
+    /*takes you back to default style*/
+}
+span{
+    color:unset;
+}
