@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+    /* box-sizing: border-box; */
+}
+.container{
+    width: 500px;
+    border: 6px solid #111;
+    margin: 10px auto;
+  }
+  
+  
+  /*
+  Add some space between the border;
+  */
+  figure{
+    margin: 10px;
+  }
+  
+  /*
+  Give the caption a distinct style.
+  */
+  figcaption,a{
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    background:#111;
+    color: #fff;
+  }
+  figure img{
+    width:100%;
+    height: auto;
+    display: block;
+  }
+
+  .testfloat{
+    width: 200px;
+    float: right;
+    float: left;
+    margin-right: 10px;
+  }
+  .box1{
+    width: 25%;
+    height: 100px;
+    float:left;
+  }
+  
+  .purple{
+    background: purple;
+  }
+  .blue{
+    background: blue;
+  }
+  .green{
+    background: green;
+  }
+  .orange{
+    background: orange;
+  }
+  .clearfix::after {
+    content:"";
+    display: table;
+    clear:both;
+  }
+ .help{
+    text-align: center;
+ }
