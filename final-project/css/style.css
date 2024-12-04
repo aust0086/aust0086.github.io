@@ -1,0 +1,140 @@
+.container {
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: #c78c06;
+    width: 100%;
+}
+
+nav {
+    background-color: #222;
+    color: #c78c06;
+
+}
+
+nav {
+    text-align: center;
+
+    a:link {
+        color: #c78c06;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #c78c06;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: #c78c06;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background-color: #c78c06;
+        color: #222;
+        width: 100%;
+    }
+}
+
+.search {
+    align-items: center;
+    align-content: center;
+}
+
+#home {
+    background-image: url(../images/main-banner.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home {
+    /* height: 100%; */
+    margin: 0 auto;
+    padding: 15rem 2rem;
+    background-color: hsla(0, 0%, 13%, 0.5);
+    color: aliceblue;
+    align-items: center;
+}
+.home button{
+/* margin: 45px auto; */
+    background-color: #c78c06;
+    padding: 10px 10px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1rem;
+
+}
+
+.about {
+    margin: 0px auto;
+    background-color: #ffe6ac;
+    padding: 0 auto;
+}
+
+.digital {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.marketing {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.video {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.web {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.print {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.jinfo {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.binfo {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+}
+
+footer {
+    a:active {
+        color: #c78c06;
+    }
+
+    a:visited {
+        color: #c78c06;
+    }
+
+    a:hover {
+        color: #c78c06;
+    }
+
+    a:link {
+        color: #c78c06;
+    }
