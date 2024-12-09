@@ -4,6 +4,9 @@
     align-content: center;
     color: #222;
 
+    display: grid;
+    place-items:center;
+    
 }
 
 .banner {
