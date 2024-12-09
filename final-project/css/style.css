@@ -1,5 +1,11 @@
 .container {
-    margin: 0 auto;
+    /* margin: 0px 10px; */
+    padding: 0 auto;
+    align-content: center;
+    justify-content: center;
+    /* max-width: 759px; */
+    color: #222;
+    
 }
 
 .banner {
@@ -15,6 +21,7 @@ nav {
 
 nav {
     text-align: center;
+    width: 100%;
 
     a:link {
         color: #c78c06;
@@ -49,6 +56,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width:100%;
 }
 
 .home {
@@ -58,11 +66,13 @@ nav {
     background-color: hsla(0, 0%, 13%, 0.5);
     color: aliceblue;
     align-items: center;
+    
 }
 .home button{
 /* margin: 45px auto; */
     background-color: #c78c06;
     padding: 10px 10px;
+    
 }
 h1{
     font-size: 2rem;
@@ -72,45 +82,96 @@ h2{
 
 }
 
-.about {
-    margin: 0px auto;
+#aboutus {
     background-color: #ffe6ac;
-    padding: 0 auto;
+    padding: 10px 10px;
+    /* width: 500px; */
+    align-content: center;
+    margin-bottom: 25px;
+}
+.aboutus{
+    padding: 10px auto;
+}
+#services{
+    /* width: 100%; */
+    padding: 0 10px;
 }
 
 .digital {
     background-color: #ffe6ac;
     margin: 10px auto;
+    /* padding: 0 10px; */
+    h2{
+        font-size: 2rem;
+    }
+}
+.dig{
+    padding:0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .marketing {
     background-color: #ffe6ac;
     margin: 10px auto;
 }
+.mar{
+    padding:0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
 
 .video {
     background-color: #ffe6ac;
     margin: 10px auto;
+}
+.vid{
+    padding:0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .web {
     background-color: #ffe6ac;
     margin: 10px auto;
 }
+.we{
+    padding:0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
 
 .print {
     background-color: #ffe6ac;
     margin: 10px auto;
 }
+.pri{
+    padding:0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.john{
+margin: 10px auto;
+background-color: #ffe6ac;
+}
 
 .jinfo {
-    background-color: #ffe6ac;
-    margin: 10px auto;
+    padding: 20px 10px;
+    h2{
+        font-size: 1.5rem;
+    }
+}
+.bob{
+margin: 10px auto;
+background-color: #ffe6ac;
 }
 
 .binfo {
-    background-color: #ffe6ac;
-    margin: 10px auto;
+    padding: 20px 10px;
+    h2{
+        font-size: 1.5rem;
+    }
 }
 
 th {
@@ -138,3 +199,16 @@ footer {
     a:link {
         color: #c78c06;
     }
+}
+
+button{
+    padding:20px 35px;
+    background-color: #222;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+#team{
+    padding: 0 10px;
+}
