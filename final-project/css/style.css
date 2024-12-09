@@ -2,10 +2,8 @@
     /* margin: 0px 10px; */
     padding: 0 auto;
     align-content: center;
-    justify-content: center;
-    /* max-width: 759px; */
     color: #222;
-    
+
 }
 
 .banner {
@@ -56,7 +54,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width:100%;
+    width: 100%;
 }
 
 .home {
@@ -66,18 +64,21 @@ nav {
     background-color: hsla(0, 0%, 13%, 0.5);
     color: aliceblue;
     align-items: center;
-    
+
 }
-.home button{
-/* margin: 45px auto; */
+
+.home button {
+    /* margin: 45px auto; */
     background-color: #c78c06;
     padding: 10px 10px;
-    
+
 }
-h1{
+
+h1 {
     font-size: 2rem;
 }
-h2{
+
+h2 {
     font-size: 1rem;
 
 }
@@ -89,10 +90,12 @@ h2{
     align-content: center;
     margin-bottom: 25px;
 }
-.aboutus{
+
+.aboutus {
     padding: 10px auto;
 }
-#services{
+
+#services {
     /* width: 100%; */
     padding: 0 10px;
 }
@@ -100,13 +103,15 @@ h2{
 .digital {
     background-color: #ffe6ac;
     margin: 10px auto;
+
     /* padding: 0 10px; */
-    h2{
+    h2 {
         font-size: 2rem;
     }
 }
-.dig{
-    padding:0 10px;
+
+.dig {
+    padding: 0 10px;
     padding-bottom: 10px;
     padding-top: 20px;
 }
@@ -115,8 +120,9 @@ h2{
     background-color: #ffe6ac;
     margin: 10px auto;
 }
-.mar{
-    padding:0 10px;
+
+.mar {
+    padding: 0 10px;
     padding-bottom: 10px;
     padding-top: 20px;
 }
@@ -125,8 +131,9 @@ h2{
     background-color: #ffe6ac;
     margin: 10px auto;
 }
-.vid{
-    padding:0 10px;
+
+.vid {
+    padding: 0 10px;
     padding-bottom: 10px;
     padding-top: 20px;
 }
@@ -135,8 +142,9 @@ h2{
     background-color: #ffe6ac;
     margin: 10px auto;
 }
-.we{
-    padding:0 10px;
+
+.we {
+    padding: 0 10px;
     padding-bottom: 10px;
     padding-top: 20px;
 }
@@ -145,31 +153,35 @@ h2{
     background-color: #ffe6ac;
     margin: 10px auto;
 }
-.pri{
-    padding:0 10px;
+
+.pri {
+    padding: 0 10px;
     padding-bottom: 10px;
     padding-top: 20px;
 }
 
-.john{
-margin: 10px auto;
-background-color: #ffe6ac;
+.john {
+    margin: 10px auto;
+    background-color: #ffe6ac;
 }
 
 .jinfo {
     padding: 20px 10px;
-    h2{
+
+    h2 {
         font-size: 1.5rem;
     }
 }
-.bob{
-margin: 10px auto;
-background-color: #ffe6ac;
+
+.bob {
+    margin: 10px auto;
+    background-color: #ffe6ac;
 }
 
 .binfo {
     padding: 20px 10px;
-    h2{
+
+    h2 {
         font-size: 1.5rem;
     }
 }
@@ -201,14 +213,79 @@ footer {
     }
 }
 
-button{
-    padding:20px 35px;
+button {
+    padding: 20px 35px;
     background-color: #222;
     color: white;
     font-size: 1.2rem;
-    
+
 }
 
-#team{
+#team {
     padding: 0 10px;
+}
+
+.contact button {
+    padding: 5px 5px;
+    color: #c78c06;
+    display: block;
+
+}
+
+.contact {
+    align-items: center;
+
+    label {
+        display: block;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+}
+
+.vision button {
+    border: #c78c06 solid 1px;
+    margin-top: 10px;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    padding: 50px 10px;
+
+    p {
+        padding-top: 10px;
+    }
+}
+
+.schedule-table {
+    width: 100%;
+    text-align: left;
+
+    thead th {
+        background-color: #ffe8a1;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    tbody td {
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    tbody tr td:first-child {
+        text-align: left;
+    }
+
+    tbody tr td:last-child {
+        text-align: left;
+    }
+
+    thead {
+        text-align: center;
+    }
 }
