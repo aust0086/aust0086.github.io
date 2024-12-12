@@ -1,11 +1,8 @@
 /* this code is made by Alysha Austin  */
 html {
-
-
     hr {
         border-top: 2px solid darkorange;
     }
-
     h1,
     h2 {
         font-weight: 900;
@@ -27,11 +24,12 @@ html {
 }
 
 .container {
+    width: 100%;
     margin: 0 auto;
     color: #222;
     align-items: center;
     align-content: center;
-
+margin-left: 0;
 }
 
 /*yellow continuation for banner*/
@@ -39,7 +37,9 @@ html {
     border: #222 solid 5px;
     background-color: #c78c06;
 }
-
+.logo-two{
+    display: none;
+}
 nav {
     background-color: #222;
     color: #c78c06;
@@ -75,7 +75,6 @@ nav {
 /* this is for the search box */
 .search {
     align-items: center;
-    width: 100%;
 }
 
 /* this is the magnifying glass icon */
@@ -91,11 +90,12 @@ nav .fa-solid {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    margin: 0 auto;
 
 }
 
 .home {
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 15rem 0;
     color: aliceblue;
     align-items: center;
@@ -257,7 +257,7 @@ button {
     background-size: cover;
     height: auto;
     padding: 50px 10px;
-    margin: 20px 10px;
+    margin: 20px 0;
 
 }
 
@@ -267,7 +267,7 @@ button {
 
 /* start of our team" */
 #team {
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 /* john's section */
@@ -337,7 +337,7 @@ button {
 .schedule-table {
     width: 95%;
     text-align: left;
-    margin: 0 20px;
+    margin: 0 auto;
 
     thead th {
         background-color: #ffe8a1;
@@ -401,16 +401,71 @@ footer {
     }
 }
 @media screen and (min-width: 760px) {
+    .container{
+    max-width: 1200px;
+    }
     nav ul li{
-        display:inline-flex;
+        display:initial;
         justify-content: center;
         align-items: center;
+        padding: 20px;
     }
     nav ul li a{
         color: #c78c06; 
-        padding: 1rem;
         font-size: 1.2rem;
         text-decoration: none;
-        padding: 53px;
     }
+    .banner{
+        display:none;
+    }
+    .logo-two{
+        display:initial;
+        display:inline-flex;
+    }
+    /* .homeback{
+        margin: 20px 50px;
+        margin-right: 50px;
+        align-content: center;
+    } */
+     #aboutus{
+        padding: 10px 30px;
+        img{
+            width: 350px;
+            float: left;
+            margin-right: 10px;
+        }
+     }
+     .clearfix::after{
+        content:"";
+        display: table;
+        clear:both;
+     }
+     .grid{
+        align-content: center;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 5px;
+        grid-template-areas:
+        "digital digital digital marketing marketing marketing"
+        "video video web web print print";
+        .digital{
+            grid-area: digital;
+        }
+        .marketing{
+            grid-area: marketing;
+        }
+        .video{
+            grid-area: video;
+        }
+        .web{
+            grid-area: web;
+        }
+        .print{
+            grid-area: print;
+        }
+       
+     }
+
 }
