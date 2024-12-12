@@ -409,6 +409,7 @@ footer {
         max-width: 1200px;
         align-items: center;
         justify-content: center;
+        
     }
 
     /* navagation section */
@@ -492,6 +493,7 @@ footer {
 
     /* float the team pics */
     #team {
+        margin: 0 20px;
         .john-pic {
             width: 50%;
             float: left;
@@ -513,6 +515,8 @@ footer {
 
     /* grid for the last 3 things on the page */
     .grid-three {
+        width: auto;
+        margin: 0 auto;
         align-items: center;
         margin: 0 20px;
         display: grid;
@@ -525,7 +529,6 @@ footer {
         .contact {
             height: 350px;
             grid-area: contact;
-
         }
 
         .location {
@@ -536,10 +539,10 @@ footer {
 
         .hours {
             grid-area: hours;
-
             h1 {
-                padding-bottom: 10px;
+                
             }
         }
+
     }
 }
