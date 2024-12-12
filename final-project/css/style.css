@@ -1,28 +1,54 @@
+/* this code is made by Alysha Austin  */
+html {
+
+
+    hr {
+        border-top: 2px solid darkorange;
+    }
+
+    h1,
+    h2 {
+        font-weight: 900;
+
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
 .container {
-    /* margin: 0px 10px; */
     margin: 0 auto;
     color: #222;
     align-items: center;
- 
+    align-content: center;
 
 }
 
+/*yellow continuation for banner*/
 .banner {
+    border: #222 solid 5px;
     background-color: #c78c06;
-    
 }
 
 nav {
     background-color: #222;
     color: #c78c06;
-    width:100%;
+    width: 100%;
     padding-bottom: 10px;
-}
-
-
-nav {
     text-align: center;
     width: 100%;
+    line-height: 1.8;
+    font-size: 1.5rem;
 
     a:link {
         color: #c78c06;
@@ -46,11 +72,18 @@ nav {
     }
 }
 
+/* this is for the search box */
 .search {
     align-items: center;
-    align-content: center;
+    width: 100%;
 }
 
+/* this is the magnifying glass icon */
+nav .fa-solid {
+    border: #c78c06 solid 1px;
+}
+
+/* Home section */
 #home {
     background-image: url(../images/main-banner.jpg);
     height: 100%;
@@ -58,177 +91,226 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+
 }
 
 .home {
-    /* height: 100%; */
-    margin: 0 auto;
-    padding: 15rem 2rem;
-    background-color: hsla(0, 0%, 13%, 0.5);
+    margin: 0px auto;
+    padding: 15rem 0;
     color: aliceblue;
     align-items: center;
+    font-size: 20px;
 
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+/* this is for the transparent background in the home section  */
+.homeback {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 150px 0;
+    width: 100%;
 }
 
 .home button {
-    /* margin: 45px auto; */
     background-color: #c78c06;
-    padding: 10px 10px;
-
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1rem;
-
-}
-
-#aboutus {
-    background-color: #ffe6ac;
-    padding: 10px 10px;
-    /* width: 500px; */
+    padding: 25px 25px;
+    color: #222;
     align-content: center;
-    margin-bottom: 25px;
 }
 
-.aboutus {
-    padding: 10px auto;
-}
-
-#services {
-    /* width: 100%; */
-    padding: 0 10px;
-    align-items: center;
-}
-
-.digital {
-    background-color: #ffe6ac;
-    margin: 10px auto;
-
-    /* padding: 0 10px; */
-    h2 {
-        font-size: 2rem;
-    }
-}
-
-.dig {
-    padding: 0 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-.marketing {
-    background-color: #ffe6ac;
-    margin: 10px auto;
-}
-
-.mar {
-    padding: 0 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-.video {
-    background-color: #ffe6ac;
-    margin: 10px auto;
-}
-
-.vid {
-    padding: 0 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-.web {
-    background-color: #ffe6ac;
-    margin: 10px auto;
-}
-
-.we {
-    padding: 0 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-.print {
-    background-color: #ffe6ac;
-    margin: 10px auto;
-}
-
-.pri {
-    padding: 0 10px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-.john {
-    margin: 10px auto;
-    background-color: #ffe6ac;
-}
-
-.jinfo {
-    padding: 20px 10px;
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
-
-.bob {
-    margin: 10px auto;
-    background-color: #ffe6ac;
-}
-
-.binfo {
-    padding: 20px 10px;
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
-
-th {
-    background-color: #ffe6ac;
-}
-
-footer {
-    background-color: #222;
-    color: #c78c06;
-}
-
-footer {
-    a:active {
-        color: #c78c06;
-    }
-
-    a:visited {
-        color: #c78c06;
-    }
-
-    a:hover {
-        color: #c78c06;
-    }
-
-    a:link {
-        color: #c78c06;
-    }
-}
-
+/* this is for the buttons in "our services" */
 button {
-    padding: 20px 35px;
+    padding: 30px 30px;
     background-color: #222;
     color: white;
     font-size: 1.2rem;
 
 }
 
+/* About us section */
+#aboutus {
+    background-color: #ffe6ac;
+    padding: 10px 10px;
+    align-content: center;
+    margin-bottom: 25px;
+}
+
+.aboutus {
+    padding: 10px;
+
+}
+
+/* start of "our services" */
+#services {
+    padding: 0 20px;
+    align-items: center;
+    align-content: center;
+}
+
+/* digital transformation section */
+.digital {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+
+}
+
+.digital h2 {
+    font-size: 2rem;
+}
+
+.digital-info {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* marketing section */
+.marketing {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+
+}
+
+.marketing h2 {
+    font-size: 2rem;
+}
+
+.marketing-info {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* video production section */
+.video {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+
+}
+
+.video h2 {
+    font-size: 2rem;
+}
+
+.video-info {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.video button {
+    margin-top: 10px;
+}
+
+/* web devlopment section */
+.web {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.web h2 {
+    font-size: 2rem;
+}
+
+.web-info {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.web button {
+    margin-top: 10px;
+}
+
+/* print section */
+.print {
+    background-color: #ffe6ac;
+    margin: 10px auto;
+}
+
+.print h2 {
+    font-size: 2rem;
+}
+
+.print-info {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.print button {
+    margin-top: 10px;
+}
+
+/* section for "our vision */
+
+.vision button {
+    border: #c78c06 solid 1px;
+    margin-top: 20px;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    padding: 50px 10px;
+    margin: 20px 10px;
+
+}
+
+.vision p {
+    padding-top: 10px;
+}
+
+/* start of our team" */
 #team {
     padding: 0 10px;
 }
 
+/* john's section */
+.john {
+    margin: 10px auto;
+    background-color: #ffe6ac;
+}
+
+.jinfo {
+
+    h2,
+    h3 {
+        line-height: 1.5;
+    }
+
+    padding: 20px 10px;
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* bob's section */
+.bob {
+    margin: 10px auto;
+    background-color: #ffe6ac;
+}
+
+.binfo {
+
+    h2,
+    h3 {
+        line-height: 1.5;
+    }
+
+    padding: 20px 10px;
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* contact section */
 .contact button {
     padding: 5px 5px;
     color: #c78c06;
@@ -237,7 +319,9 @@ button {
 }
 
 .contact {
-    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    line-height: 1.5;
 
     label {
         display: block;
@@ -249,26 +333,11 @@ button {
     }
 }
 
-.vision button {
-    border: #c78c06 solid 1px;
-    margin-top: 10px;
-}
-
-.vision {
-    background-image: url(../images/vision.jpg);
-    color: white;
-    background-size: cover;
-    height: auto;
-    padding: 50px 10px;
-
-    p {
-        padding-top: 10px;
-    }
-}
-
+/* hours of operation schedual */
 .schedule-table {
-    width: 100%;
+    width: 95%;
     text-align: left;
+    margin: 0 20px;
 
     thead th {
         background-color: #ffe8a1;
@@ -291,5 +360,57 @@ button {
 
     thead {
         text-align: center;
+    }
+}
+
+.hours {
+    margin: 15px 0;
+
+    h1 {
+        padding: 0 20px;
+    }
+}
+
+/* location section */
+.location {
+    padding: 5px 20px;
+}
+
+/* fotter section */
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 50px 15px;
+}
+
+footer {
+    a:active {
+        color: #c78c06;
+    }
+
+    a:visited {
+        color: #c78c06;
+    }
+
+    a:hover {
+        color: #c78c06;
+    }
+
+    a:link {
+        color: #c78c06;
+    }
+}
+@media screen and (min-width: 760px) {
+    nav ul li{
+        display:inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li a{
+        color: #c78c06; 
+        padding: 1rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 53px;
     }
 }
